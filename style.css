@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+#about-div1{
+    height: 200px;
+    background-color: rgb(73, 31, 112);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    padding: 0;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    height: 750px;
+    width: 750px;
+    opacity: 40%;
+    position: relative;
+    top: 500;
+}
+.overlay-text{
+    font-size: 30px;
+    position: absolute;
+    font-family:'Courier New', Courier, monospace;
+    text-align-last: center;
+}
+button{
+    padding: 10px 25px;
+    border: solid #EAECCC;
+    margin-right: 5%;
+    border-radius: 100px;
+    background-color: #FFE5E5;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#profiles{
+    font-size: 20px;
+}
+.exp-pro{
+    margin-top: 10%;
+   font-size: 20px;
+}
